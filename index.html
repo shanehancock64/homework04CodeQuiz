@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coding Quiz</title>
+  </head>
+  <body>
+    <div id="container">
+      <!--start section-->
+      <div id="start">Start Quiz</div>
+
+      <!--Quiz Section-->
+
+      <div id="quiz">
+        <div id="quiz_header">
+          <h5>Coding Quiz</h5>
+          <div id="timer">
+            <h6>Time left</h6>
+            <h6 id="time">00</h6>
+          </div>
+        </div>
+        <!--Quiz Questions-->
+
+        <div id="question">
+          <h2 id="questionno">1.</h2>
+          <h2 id="questionText">HTML stands for</h2>
+        </div>
+
+        <!--Quiz  Choices-->
+
+        <div id="optionList">
+          <h4 class="choice_que" id="option1">html</h4>
+          <h4 class="choice_que" id="option2">html</h4>
+          <h4 class="choice_que" id="option3">html</h4>
+          <h4 class="choice_que" id="option4">html</h4>
+        </div>
+        <div id="answerSection">
+          <h3 id="total_correct">3 of 10 Question</h3>
+          <h3 id="next_question">Next</h3>
+        </div>
+      </div>
+      <!--results section-->
+      <div id="result">
+        <h6>You have finished the quiz!</h6>
+        <h6 id="points">You completed 4 out of 10!</h6>
+        <button id="quit">Quit Quiz</button>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+    <script src="newscript.js"></script>
+  </body>
+</html>
